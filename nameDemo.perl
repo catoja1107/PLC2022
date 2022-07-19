@@ -1,3 +1,6 @@
+#!/bin/usr/perl
+#This version doesn't use a hash so it needs to check every array item.
+
 my @chars = ( "A" .. "Z", "a" .. "z" );
 my @data;
 my $start = time;
