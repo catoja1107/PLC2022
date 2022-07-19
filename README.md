@@ -9,6 +9,6 @@ Private repo, if you're reading this and aren't my prof, bruh.
 ---
 ## HW 2 Files:
 - ptrArrayTimeCompare.c
-- hashNameSaltDemo.perl
+- hashSaltNameDemo.perl
 - nameDemo.perl
 - x.java
