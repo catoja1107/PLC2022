@@ -3,7 +3,7 @@ Private repo, if you're reading this and aren't my prof, bruh.
 
 ---
 ## HW 1 Files:
-- blah.c
+- SplitTokens.java
 - input.txt
 
 ---
