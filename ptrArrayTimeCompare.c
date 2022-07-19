@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <time.h> //for clock comparison
 
+void myArr(); //cleans up undeclared function warnings
+void myPtr();
+
 int main() {
   clock_t start, stop;
   double cpuTime;
@@ -8,7 +11,7 @@ int main() {
   //starts cpu clock
   start = clock();
 
-  for(int i=0; i<5000; i++){
+  for(int i=0; i<50000; i++){
     myArr(); //access directly
   }
 
@@ -22,7 +25,7 @@ int main() {
 
   start = clock();
 
-  for(int i=0; i<5000; i++){
+  for(int i=0; i<50000; i++){
     myPtr(); //access by pointers
   }
 
@@ -35,8 +38,8 @@ int main() {
 }
 
 void myArr() {
-  int arr[20][10] = {0};
-  for(int j=0; j<10 ; j++){
+  int arr[20][20] = {0};
+  for(int j=0; j<20 ; j++){
     for(int i=0; i<20; i++){
       arr[i][j];
     }
@@ -45,9 +48,9 @@ void myArr() {
 }
 
 void myPtr() {
-  int arr[20][10] = {0};
-  for(int j=0; j<5 ; j++){
-    for(int i=0; i<15; i++){
+  int arr[20][20] = {0};
+  for(int j=0; j<20 ; j++){
+    for(int i=0; i<20; i++){
       *(*(arr+i)+j);
     }
   }
