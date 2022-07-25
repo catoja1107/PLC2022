@@ -11,3 +11,6 @@ Private repo, if you're reading this and aren't my prof, bruh.
 - nameDemo.perl
 - recursiveSearch.java
 - test.jojo
+
+## Test 2 Files:
+- lexer.java
