@@ -1,16 +1,16 @@
 # PLC2022
-Private repo, if you're reading this and aren't my prof, bruh.
+Programming Language Concepts - Lexical Analyzers, Parsers, proof of concepts etc.
 
-## HW 1 Files:
+## Tokenizer Files:
 - SplitTokens.java
 - input.txt
 
-## HW 2 Files:
+## Bottom-Up Parsing Files:
 - ptrArrayTimeCompare.c
 - hashSaltNameDemo.perl
 - nameDemo.perl
 - recursiveSearch.java
 - test.jojo
 
-## Test 2 Files:
+## Lexer Files:
 - lexer.java
